@@ -1,0 +1,38 @@
+.aboutus {
+  margin: 2em auto;
+  height: fit-content;
+  z-index: 200;
+
+  .cont {
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+    .row_cont {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .box {
+      margin: auto;
+      width: 400px;
+      height: fit-content;
+
+      .icon {
+        margin: 0 auto;
+        color: $base_color;
+      }
+      h2 {
+        font-size: 2em;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+
+      p {
+        padding: 0 1em;
+      }
+    }
+  }
+}

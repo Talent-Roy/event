@@ -1,0 +1,39 @@
+.event_dates {
+  nav {
+    height: 50px;
+    width: 100%;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 0.4em 0 0.4em 0.8em;
+    background: $base_color;
+    color: #fff;
+  }
+
+  .evntdt_wrap {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background: cornflowerblue;
+  }
+
+  .date_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+    .box {
+      //   background: mediumturquoise;
+      margin: 1px auto;
+      min-width: 200px;
+      height: 150px;
+
+      img {
+        width: 300px;
+        height: fit-content;
+      }
+    }
+  }
+}

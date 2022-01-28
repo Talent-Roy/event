@@ -1,0 +1,42 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  border: transparent 0px;
+  img {
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .header_text {
+    top: 40%;
+
+    .lead {
+      font-size: 1.5em;
+      margin-bottom: 0;
+      font-weight: 400;
+      text-transform: capitalize;
+      font-family: $font_family;
+    }
+
+    h3 {
+      font-size: 3em;
+      font-weight: 800;
+      text-transform: capitalize;
+      color: $base_color;
+      font-family: $font_family;
+    }
+
+    .header_btn {
+      background: $base_color;
+      padding: 1.2em 3em;
+      border-radius: 5em;
+      color: #fff;
+      font-size: 1em;
+      text-transform: capitalize;
+      border: transparent;
+      z-index: 1;
+      font-family: $font_family;
+    }
+  }
+}

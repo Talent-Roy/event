@@ -1,0 +1,31 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./theme.scss";
+@import "./navbar.scss";
+@import "./header.scss";
+@import "./aboutus.scss";
+@import "./countdown.scss";
+@import "./aboutevent.scss";
+@import "./cards.scss";
+@import "./gallery.scss";
+@import "./upcoming-events.scss";
+@import "./event-dates.scss";
+@import "./partners.scss";
+@import "./cta.scss";
+@import "./footer.scss";
+
+body {
+  background-color: #f9f8ff !important;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font_family;
+  }
+  p,
+  li {
+    font-family: $font_family;
+  }
+}

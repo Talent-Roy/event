@@ -1,0 +1,55 @@
+.partners {
+  margin: 2em auto;
+  .line {
+    height: 5px;
+    width: 45px;
+    margin-left: 0.7em;
+    border-radius: 0.5em;
+    background: $base_color;
+    margin-bottom: 0.3em;
+  }
+
+  h2 {
+    text-transform: capitalize;
+    padding: 0.4em;
+    font-family: $font_family;
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    h2 {
+      margin-left: 6em;
+    }
+
+    .line {
+      margin-left: 13em;
+    }
+  }
+  .brands_wrap {
+    margin: 1em auto;
+    max-width: 100%;
+    display: flex;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+
+    .brand {
+      min-width: 250px;
+      height: 200px;
+      opacity: 0.5;
+      transition: 1200ms;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
