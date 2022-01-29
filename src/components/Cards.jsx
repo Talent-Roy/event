@@ -4,55 +4,62 @@ import { VscRocket } from "react-icons/vsc";
 
 const Cards = () => {
   return (
-    <div className="container cards_sect">
-      <div className="cards_cont">
-        <div className="box">
-          <BsMic className="icon" size={80} />
-          <h2>Lorem, ipsum.</h2>
-
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit.
-          </p>
-          <a href="/">
-            <h3>read more</h3>
-          </a>
+    <div className=" cards_sect">
+      <div className="cards_cont row justify-content-center mt30">
+        <div className="box col-12 col-md-6 col-lg-3">
+          <BsMic className="icon" />
+          <div className="content">
+            <h2>Lorem, ipsum.</h2>
+            <p className="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              rhoncus massa nec graviante.
+            </p>
+            <a href="/">
+              <h3>read more</h3>
+            </a>
+          </div>
         </div>
 
-        <div className="box">
-          <VscRocket className="icon" size={80} />
-          <h2>Lorem, ipsum.</h2>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit.
-          </p>
-          <a href="/">
-            <h3>read more</h3>
-          </a>
+        <div className="box col-12 col-md-6 col-lg-3">
+          <VscRocket className="icon" />
+          <div className="content">
+            <h2>Lorem, ipsum.</h2>
+            <p className="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              rhoncus massa nec graviante.
+            </p>
+            <a href="/">
+              <h3>read more</h3>
+            </a>
+          </div>
         </div>
 
-        <div className="box">
-          <BsMegaphone className="icon" size={80} />
-          <h2>Lorem, ipsum.</h2>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit.
-          </p>
-          <a href="/">
-            <h3>read more</h3>
-          </a>
+        <div className="box col-12 col-md-6 col-lg-3">
+          <BsMegaphone className="icon" />
+          <div className="content">
+            <h2>Lorem, ipsum.</h2>
+            <p className="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              rhoncus massa nec graviante.
+            </p>
+            <a href="/">
+              <h3>read more</h3>
+            </a>
+          </div>
         </div>
 
-        <div className="box">
-          <BsAlarm className="icon" size={80} />
-          <h2>Lorem, ipsum.</h2>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit.
-          </p>
-          <a href="/">
-            <h3>read more</h3>
-          </a>
+        <div className="box col-12 col-md-6 col-lg-3">
+          <BsAlarm className="icon" />
+          <div className="content">
+            <h2>Lorem, ipsum.</h2>
+            <p className="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              rhoncus massa nec graviante.
+            </p>
+            <a href="/">
+              <h3>read more</h3>
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -42,7 +42,6 @@
       width: 350px;
       height: 350px;
       position: relative;
-      transition: 1000ms ease-in;
 
       .details {
         position: absolute;
@@ -70,11 +69,12 @@
         object-fit: cover;
         background-position: center;
         background-size: cover;
+        transition: all ease-in-out 0.5s;
       }
 
       &:hover {
         img {
-          transform: scale(1.01);
+          transform: scale(1.02);
         }
 
         .details {

@@ -30,7 +30,7 @@ const UpcomingEvents = () => {
         </div>
 
         <div className="box">
-          <div className="details mt-5">
+          <div className="details mt-0">
             <h4>Lorem ipsum.</h4>
             <p className="lead">Lorem ipsum dolor.</p>
             <p className="date">
@@ -49,7 +49,7 @@ const UpcomingEvents = () => {
         </div>
 
         <div className="box">
-          <div className="details mt-5">
+          <div className="details mt-0">
             <h4>Lorem ipsum.</h4>
             <p className="lead">Lorem ipsum dolor.</p>
             <p className="date">

@@ -45,40 +45,22 @@ const Footer = () => {
         <h2 className="title">instagram</h2>
         <div className="insta_imgs">
           <div className="inst_img">
-            <img
-              src={require("./assets/imgs/ryan-S21ouX_4K9c-unsplash.jpg")}
-              alt="..."
-            />
+            <img src={require("./assets/imgs/insta.jpg")} alt="..." />
           </div>
           <div className="inst_img">
-            <img
-              src={require("./assets/imgs/ryan-S21ouX_4K9c-unsplash.jpg")}
-              alt="..."
-            />
+            <img src={require("./assets/imgs/insta.jpg")} alt="..." />
           </div>
           <div className="inst_img">
-            <img
-              src={require("./assets/imgs/ryan-S21ouX_4K9c-unsplash.jpg")}
-              alt="..."
-            />
+            <img src={require("./assets/imgs/insta.jpg")} alt="..." />
           </div>
           <div className="inst_img">
-            <img
-              src={require("./assets/imgs/ryan-S21ouX_4K9c-unsplash.jpg")}
-              alt="..."
-            />
+            <img src={require("./assets/imgs/insta.jpg")} alt="..." />
           </div>
           <div className="inst_img">
-            <img
-              src={require("./assets/imgs/ryan-S21ouX_4K9c-unsplash.jpg")}
-              alt="..."
-            />
+            <img src={require("./assets/imgs/insta.jpg")} alt="..." />
           </div>
           <div className="inst_img">
-            <img
-              src={require("./assets/imgs/ryan-S21ouX_4K9c-unsplash.jpg")}
-              alt="..."
-            />
+            <img src={require("./assets/imgs/insta.jpg")} alt="..." />
           </div>
         </div>
       </div>

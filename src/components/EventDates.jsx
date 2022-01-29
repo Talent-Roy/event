@@ -3,13 +3,13 @@ import React from "react";
 const EventDates = () => {
   return (
     <div className=" event_dates">
+      <nav className="navbar">Event calender</nav>
       <div className=" evntdt_wrap ">
-        <nav className="navbar">Event calender</nav>
         <div className="date_cont date1">
           <div className="box">
             <img
               className="img-fluid"
-              src={require("./assets/imgs/noiseporn-JNuKyKXLh8U-unsplash.jpg")}
+              src={require("./assets/imgs/insta.jpg")}
               alt=""
             />
           </div>
@@ -23,7 +23,7 @@ const EventDates = () => {
           <div className="box">
             <img
               className="img-fluid"
-              src={require("./assets/imgs/noiseporn-JNuKyKXLh8U-unsplash.jpg")}
+              src={require("./assets/imgs/insta.jpg")}
               alt=""
             />
           </div>
@@ -37,7 +37,7 @@ const EventDates = () => {
           <div className="box">
             <img
               className="img-fluid"
-              src={require("./assets/imgs/noiseporn-JNuKyKXLh8U-unsplash.jpg")}
+              src={require("./assets/imgs/insta.jpg")}
               alt=""
             />
           </div>
