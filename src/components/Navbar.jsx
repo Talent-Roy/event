@@ -4,13 +4,13 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 const Navigation = () => {
   return (
     <div>
-      <Navbar className="navigation" expand="lg">
+      <Navbar className="navigation fixed-top transparent" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
             <h3>Event</h3>
           </Navbar.Brand>
           <Navbar.Toggle
-            className="toggle_bar"
+            className="bg-light"
             aria-controls="basic-navbar-nav"
           />
           <Navbar.Collapse id="basic-navbar-nav">

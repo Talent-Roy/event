@@ -8,17 +8,21 @@ const AboutEvent = () => {
       <div className="details_cont">
         <div className="box">
           <p className="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit ipsa asperiores quos autem unde quis non vitae omnis
-            praesentium inventore.
+            Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer
+            iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
+            accumsan. Pellentesque convallis consectetur tortor id placerat.
+            Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
+            volutpat ligula euismod.
           </p>
         </div>
 
         <div className="box">
           <p className="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit ipsa asperiores quos autem unde quis non vitae omnis
-            praesentium inventore.
+            In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a
+            accumsan. Pellentesque convallis consectetur tortor id placerat.
+            Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
+            volutpat ligula euismod quis. Maecenas ornare, ex in malesuada
+            tempus.
           </p>
         </div>
       </div>

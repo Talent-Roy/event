@@ -42,6 +42,13 @@
       color: $text_color;
       font-family: $font_family;
       font-size: 14px;
+      margin: 0 0 15px;
+      line-height: 24px;
+      font-weight: 400;
+
+      :last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }

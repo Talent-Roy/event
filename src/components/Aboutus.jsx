@@ -14,9 +14,11 @@ const Aboutus = () => {
             <h2 className="text-center">our goal</h2>
 
             <p className="lead">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
-              nulla veniam qui minima possimus vero, molestiae asperiores porro
-              commodi quo?
+              Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer
+              iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
+              accumsan. Pellentesque convallis consectetur tortor id placerat.
+              Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
+              volutpat ligula euismod.
             </p>
           </div>
         </div>
@@ -28,9 +30,11 @@ const Aboutus = () => {
             <h2 className="text-center">our vission</h2>
 
             <p className="lead">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
-              nulla veniam qui minima possimus vero, molestiae asperiores porro
-              commodi quo?
+              Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer
+              iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
+              accumsan. Pellentesque convallis consectetur tortor id placerat.
+              Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
+              volutpat ligula euismod.
             </p>
           </div>
         </div>
