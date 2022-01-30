@@ -38,12 +38,12 @@ const EventDates = () => {
                   </div>
                 </td>
                 <td>
-                  <a href="#" class="table_btn btn-rounded">
+                  <a href="/" class="table_btn btn-rounded">
                     Read More
                   </a>
                 </td>
                 <td class="buy_link">
-                  <a href="#">buy now</a>
+                  <a href="/">buy now</a>
                 </td>
               </tr>
               <tr>
@@ -65,12 +65,12 @@ const EventDates = () => {
                   </div>
                 </td>
                 <td>
-                  <a href="#" class=" table_btn btn-rounded">
+                  <a href="/" class=" table_btn btn-rounded">
                     Read More
                   </a>
                 </td>
                 <td class="buy_link">
-                  <a href="#">buy now</a>
+                  <a href="/">buy now</a>
                 </td>
               </tr>
               <tr>
@@ -89,12 +89,12 @@ const EventDates = () => {
                   </div>
                 </td>
                 <td>
-                  <a href="#" class=" table_btn btn-rounded">
+                  <a href="/" class=" table_btn btn-rounded">
                     Read More
                   </a>
                 </td>
                 <td class="buy_link">
-                  <a href="#">buy now</a>
+                  <a href="/">buy now</a>
                 </td>
               </tr>
             </tbody>
